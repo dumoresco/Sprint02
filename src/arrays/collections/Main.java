@@ -9,9 +9,10 @@ public class Main {
 
         // Set
         HashSet set = new HashSet();
-
+        
         set.add(2);
-        set.add("2");
+        set.add(2.1);
+        set.add('2');
         set.add(true);
         set.add("String");
 

@@ -2,7 +2,6 @@ package arrays.collections;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
-import java.util.LinkedList;
 import java.util.TreeSet;
 
 public class SetExample {
@@ -28,9 +27,7 @@ public class SetExample {
     // Adiciona elemento na collection HashSet
     public long addElementOnHashSet(){
         startTime = System.currentTimeMillis();
-
-        hashSet.add(1);
-
+        hashSet.add(12345678);
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -41,9 +38,7 @@ public class SetExample {
         startTime = System.currentTimeMillis();
         HashSet<Integer> newHashSet = new HashSet<>();
         for (int i = 0; i < hashSet.size(); i++) {
-
             newHashSet.add(i);
-
         }
         hashSet = newHashSet;
         finalTime = System.currentTimeMillis();
@@ -54,9 +49,7 @@ public class SetExample {
     // Deleta um elemento na collection HashSet
     public long deleteElementOnHashSet(){
         startTime = System.currentTimeMillis();
-
-        linkedHashSet.remove(1);
-
+        hashSet.remove(123);
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -66,9 +59,7 @@ public class SetExample {
     // Deleta todos os elementos na colletion HashSet
     public long deleteAllElementOnHashSet(){
         startTime = System.currentTimeMillis();
-
-        linkedHashSet.clear();
-
+        hashSet.clear();
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -79,9 +70,7 @@ public class SetExample {
     // =========================================== LINKED HASH SET ===================================================
     public long addElementOnLinkedHashSet(){
         startTime = System.currentTimeMillis();
-
         linkedHashSet.add(1);
-
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -91,9 +80,7 @@ public class SetExample {
         startTime = System.currentTimeMillis();
         LinkedHashSet<Integer> newLinkedHashSet = new LinkedHashSet<>();
         for (int i = 0; i < hashSet.size(); i++) {
-
             newLinkedHashSet.add(i);
-
         }
         linkedHashSet = newLinkedHashSet;
         finalTime = System.currentTimeMillis();
@@ -103,9 +90,7 @@ public class SetExample {
 
     public long deleteElementOnLinkedHashSet(){
         startTime = System.currentTimeMillis();
-
-        hashSet.remove(1);
-
+        linkedHashSet.remove(1);
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -113,9 +98,7 @@ public class SetExample {
 
     public long deleteAllElementOnLinkedHashSet(){
         startTime = System.currentTimeMillis();
-
-        hashSet.clear();
-
+        linkedHashSet.clear();
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -124,9 +107,7 @@ public class SetExample {
     // =========================================== TREE HASH SET ===================================================
     public long addElementOnTreeSet(){
         startTime = System.currentTimeMillis();
-
         treeSet.add(1);
-
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -136,9 +117,7 @@ public class SetExample {
         startTime = System.currentTimeMillis();
         TreeSet<Integer> newTreeSet = new TreeSet<>();
         for (int i = 0; i < hashSet.size(); i++) {
-
             newTreeSet.add(i);
-
         }
         treeSet = newTreeSet;
         finalTime = System.currentTimeMillis();
@@ -148,9 +127,7 @@ public class SetExample {
 
     public long deleteElementOnTreeSet(){
         startTime = System.currentTimeMillis();
-
         treeSet.remove(1);
-
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -158,9 +135,7 @@ public class SetExample {
 
     public long deleteAllElementOnTreeSet(){
         startTime = System.currentTimeMillis();
-
         treeSet.clear();
-
         finalTime = System.currentTimeMillis();
         totalTime = finalTime - startTime;
         return totalTime;
@@ -173,7 +148,8 @@ public class SetExample {
                 "\nTempo para adicionar um elemento no HashSet: " + addElementOnHashSet() + "ms" +
                 "\nTempo para atualizar uma collection HashSet: " + updateELementOnHashSet() + "ms" +
                 "\nTempo para deletar um elemento no HashSet: " + deleteElementOnHashSet() + "ms" +
-                "\nTempo para deletar todos os elementos no HashSet: " + deleteAllElementOnHashSet() + "ms" +
+//                "\nTempo para deletar todos os elementos no HashSet: " + deleteAllElementOnHashSet() + "ms" +
+                "\n HashSet size: " + hashSet.size() +
                 "\n "+
                 "\n=======================================LINKED HASH SET================================================== " +
                 "\nTempo para adicionar um elemento no Linked HashSet: " + addElementOnLinkedHashSet() + "ms" +
