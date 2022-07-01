@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee72d9c-4c57-47bb-8505-01b6cbe29b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/Exercicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Equals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Equals/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Operacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/collections/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/collections/SetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/exercicioArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/matriz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Exercicio.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +38,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/forttiori/Desktop/Sprint02&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Exercicio">
-    <configuration name="Exercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Exercicio" />
+}</component>
+  <component name="RunManager" selected="Application.arrays.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.collections.Main" />
+      <module name="Sprint02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arrays.Equals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Equals.Main" />
+      <module name="Sprint02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.Equals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arrays.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Main" />
       <module name="Sprint02" />
       <extension name="coverage">
         <pattern>
@@ -56,17 +86,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="arrays.exercicioArray.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.exercicioArray.Main" />
       <module name="Sprint02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.exercicioArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arrays.matriz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.matriz.Main" />
+      <module name="Sprint02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.matriz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercicio" />
+        <item itemvalue="Application.arrays.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.arrays.Equals.Main" />
+        <item itemvalue="Application.arrays.matriz.Main" />
+        <item itemvalue="Application.arrays.exercicioArray.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +130,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656435600942</updated>
-      <workItem from="1656435602423" duration="2581000" />
+      <workItem from="1656435602423" duration="6321000" />
+      <workItem from="1656503238083" duration="1904000" />
+      <workItem from="1656508986912" duration="5824000" />
+      <workItem from="1656544943656" duration="30000" />
+      <workItem from="1656594063924" duration="8750000" />
+      <workItem from="1656673858567" duration="18000" />
+      <workItem from="1656677112662" duration="3906000" />
+      <workItem from="1656681208600" duration="6883000" />
     </task>
     <servers />
   </component>
