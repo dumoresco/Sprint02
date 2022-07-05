@@ -59,10 +59,14 @@ public class Main {
 
         fila.remove(); // remove o primero valor que entrou - lança uma excessão
 
+        // Peek e Element -> Obter o proximo elemento da fila ( sem remover )
         // Diferença é o comportamento quando a fila está vazia
 
         System.out.println(fila.peek()); // retorna false
+        System.out.println(fila.peek());
         System.out.println(fila.element()); // Lança uma excessão
+        System.out.println(fila.element());
+
 
         System.out.println(fila);
 
@@ -83,6 +87,7 @@ public class Main {
         pilha.add("Livro 1"); // retorna true ou false
         pilha.push("Livro 2"); // não retorna nada
         pilha.push("Livro 3");
+
 
 
 
