@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee72d9c-4c57-47bb-8505-01b6cbe29b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/Convidado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/CriandoStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/DesafioFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/DesafioMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/ImprimindoObjetos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/Reduce01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/stremapi/Reduce02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/exceção/Basico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/exceção/ChecadaVsNaoChecada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/Caixa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/CaixaInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/CaixaIntTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/CaixaNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/CaixaNumeroTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/CaixaObjeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/ListaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/generics/Par.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/interfaceFuncionais/Predicado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/stremapi/Convidado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/stremapi/Convidado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +47,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/forttiori/Desktop/Sprint02&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinMax">
-    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.stremapi.Match" />
+  <component name="RunManager" selected="Application.ListaUtilTeste">
+    <configuration name="Basico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.exceção.Basico" />
       <module name="Sprint02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.stremapi.*" />
+          <option name="PATTERN" value="arrays.exceção.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.stremapi.MinMax" />
+    <configuration name="CaixaIntTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.generics.CaixaIntTeste" />
       <module name="Sprint02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.stremapi.*" />
+          <option name="PATTERN" value="arrays.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduce01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.stremapi.Reduce01" />
+    <configuration name="ListaUtilTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.generics.ListaUtilTeste" />
       <module name="Sprint02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.stremapi.*" />
+          <option name="PATTERN" value="arrays.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arrays.stremapi.DesafioFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.stremapi.DesafioFilter" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.generics.Main" />
       <module name="Sprint02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.stremapi.*" />
+          <option name="PATTERN" value="arrays.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arrays.stremapi.Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.stremapi.Filter" />
+    <configuration name="Predicado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.interfaceFuncionais.Predicado" />
       <module name="Sprint02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.stremapi.*" />
+          <option name="PATTERN" value="arrays.interfaceFuncionais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.Match" />
-        <item itemvalue="Application.Reduce01" />
-        <item itemvalue="Application.arrays.stremapi.DesafioFilter" />
-        <item itemvalue="Application.arrays.stremapi.Filter" />
+        <item itemvalue="Application.ListaUtilTeste" />
+        <item itemvalue="Application.CaixaIntTeste" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Basico" />
+        <item itemvalue="Application.Predicado" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +150,9 @@
       <workItem from="1657107608117" duration="9873000" />
       <workItem from="1657125800201" duration="1784000" />
       <workItem from="1657196341479" duration="1204000" />
-      <workItem from="1657203864123" duration="2740000" />
+      <workItem from="1657203864123" duration="7012000" />
+      <workItem from="1657282579816" duration="1430000" />
+      <workItem from="1657714846170" duration="4973000" />
     </task>
     <servers />
   </component>

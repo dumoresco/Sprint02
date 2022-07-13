@@ -1,9 +1,9 @@
 package arrays.stremapi;
 
 public class Convidado {
-    final String nome;
-    final int idade;
-    final boolean isInvited;
+     String nome;
+     public int idade;
+     boolean isInvited;
 
     public Convidado(String nome, int idade) {
         this(nome,idade,true);
